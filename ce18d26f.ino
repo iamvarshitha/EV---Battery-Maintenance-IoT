@@ -9,12 +9,12 @@
 #include <ESP32Servo.h>
 
 // ===================== WiFi Configuration =====================
-const char* WIFI_SSID = "pikachu";
-const char* WIFI_PASSWORD = "asdfghjkl123";
+const char* WIFI_SSID = ""; // add ur details
+const char* WIFI_PASSWORD = ""; // add ur details
 
 // ===================== Firebase Configuration =====================
-const char* FIREBASE_HOST = "https://battery-health-monitor-4ed0a-default-rtdb.asia-southeast1.firebasedatabase.app";
-const char* FIREBASE_AUTH = "AIzaSyBlJX0BWEyHvkwpSDeqQRe9o2L4TevkHPE";
+const char* FIREBASE_HOST = "https://firebasedatabase.app"; // add your details
+const char* FIREBASE_AUTH = ""; // add your details
 
 // ===================== Web Server Setup =============================
 WebServer server(80);  // Built-in web server
